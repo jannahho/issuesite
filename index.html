@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hear</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+  <div class="bordertext">
+      <p class="bord1">It seems small</p>
+      <p class="bord2">Why does it hurt</p>
+      <p class="bord3">Am I crazy</p>
+      <p class="bord4">I'm overreacting</p>
+  </div>
+
+<div class="centercircle">
+  <div class="centertext">Hear Us.</div>
+</div>
+
+
+<div class="all txt page javascript functions">
+  <script>
+    function openForm1() {
+      document.getElementById("textpage1").style.display = "block";
+    }
+    function closeForm1() {
+      document.getElementById("textpage1").style.display = "none";
+    }
+  </script>
+
+  <script>
+    function openForm2() {
+      document.getElementById("textpage2").style.display = "block";
+    }
+    function closeForm2() {
+      document.getElementById("textpage2").style.display = "none";
+    }
+  </script>
+
+  <script>
+    function openForm3() {
+      document.getElementById("textpage3").style.display = "block";
+    }
+    function closeForm3() {
+      document.getElementById("textpage3").style.display = "none";
+    }
+  </script>
+
+  <script>
+    function openForm4() {
+      document.getElementById("textpage4").style.display = "block";
+    }
+    function closeForm4() {
+      document.getElementById("textpage4").style.display = "none";
+    }
+  </script>
+</div>
+    <!-- javascript format from https://www.w3schools.com/howto/howto_js_popup_form.asp -->
+
+<div class="alltxtpagebuttons">
+  <button class="trianglebutton" onclick="openForm1()"></button>
+  <button class="squarebutton" onclick="openForm2()"></button>
+  <button class="starbutton" onclick="openForm3()"></button>
+  <button class="circlebutton" onclick="openForm4()"></button>
+</div>
+
+
+<div class="all the textpages">
+  <div class="popup" id="textpage1">
+    <h1 class="submissiontext">"I love Asian woman I would marry you guys"</h1>
+    <button onclick="document.location='whycare.html'">Why care?</button>
+    <button onclick="document.location='submitpage.html'">Submit your own story</button>
+    <button type="button" class="btn cancel" onclick="closeForm1()">Close</button>
+    </form>
+  </div>
+
+  <div class="popup" id="textpage2">
+    <h2 class="submissiontext">"You don’t have to worry about getting hired because your Asian”</h2>
+    <button onclick="document.location='whycare.html'">Why care?</button>
+    <button onclick="document.location='submitpage.html'">Submit your own story</button>
+    <button type="button" class="btn cancel" onclick="closeForm2()">Close</button>
+    </form>
+  </div>
+
+  <div class="popup" id="textpage3">
+    <h3 class="submissiontext">The other kids moved away from me when I ate lunch. I threw away the lunch my mom packed me everday for 10 years.</h3>
+    <button onclick="document.location='whycare.html'">Why care?</button>
+    <button onclick="document.location='submitpage.html'">Submit your own story</button>
+    <button type="button" class="btn cancel" onclick="closeForm3()">Close</button>
+    </form>
+  </div>
+
+  <div class="popup" id="textpage4">
+    <h4 class="submissiontext">"You might not understand but this is how we usually word it in english" -professor (I speak english)</h4>
+    <button onclick="document.location='whycare.html'">Why care?</button>
+    <button onclick="document.location='submitpage.html'">Submit your own story</button>
+    <button type="button" class="btn cancel" onclick="closeForm4()">Close</button>
+    </form>
+  </div>
+</div>
+
+<div class="all text page hides">
+  <!-- javascript format from https://www.w3schools.com/howto/howto_js_popup_form.asp -->
+  <script>
+  document.getElementById("textpage1").style.display = "none";
+  </script>
+
+  <script>
+  document.getElementById("textpage2").style.display = "none";
+  </script>
+
+  <script>
+  document.getElementById("textpage3").style.display = "none";
+  </script>
+
+  <script>
+  document.getElementById("textpage4").style.display = "none";
+  </script>
+
+</div>
+
+
+  </body>
+</html>

@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Special+Elite&display=swap');
+
+body {
+  background-color: #D6D5B6;
+  font-family: 'Abyssinica SIL', serif;
+  color: #4D5C74;
+}
+
+h1{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.submittext {
+  text-align: center;
+  color: #1852A4;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+}
+
+/* learned from https://code-boxx.com/css-circles-text/ */
+.submitcircle {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  line-height: 0;
+  background-color: #c1b8cc;
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  left: 480px;
+  display: block;
+  font-size: 50px;
+}
+
+.submitcircle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+/* bug? was working and then refreshed and it changed */
+/* .squiggle1{
+  display: inline-block;
+  float:left;
+  width: 310px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+}
+.squiggle2{
+  display: inline-block;
+  float: right;
+  width: 310px;
+  margin-right: 60px;
+  margin-top: 40px;
+} */

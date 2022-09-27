@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Special+Elite&display=swap');
+
+body {
+  background-color: #D6D5B6;
+  font-family: 'Abyssinica SIL', serif;
+}
+
+.bordertext {
+  color: #e9e1f2;
+  font-size: 50px;
+  font-family: 'Special Elite', display;
+  position: absolute;
+  letter-spacing: 30px;
+  background: none;
+  width: 1500px;
+  object-fit: contain;
+  text-overflow: square;
+}
+
+.bord1 {
+  writing-mode: vertical-rl;
+  margin-left: 4px;
+  margin-top: 10px;
+  padding: 4px;
+}
+.bord2 {
+  margin-right: 100px;
+  margin-left: 0px;
+  margin-top: -800px;
+  margin-bottom: 50px;
+  padding: 4px;
+  transform: rotate(180deg);
+}
+
+.bord3 {
+  writing-mode: vertical-lr;
+  margin-left: 1340px;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  transform: rotate(180deg);
+}
+
+.bord4 {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 4px;
+
+}
+.centertext {
+  text-align: center;
+  color: #1852A4;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+}
+
+/* learned from https://code-boxx.com/css-circles-text/ */
+.centercircle {
+  height: 500px;
+  width: 500px;
+  position: relative;
+  line-height: 0;
+  background-color: #c1b8cc;
+  border-radius: 50%;
+  margin-top: 100px;
+  left: 480px;
+  display: block;
+  font-size: 50px;
+}
+.centercircle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+
+.trianglebutton {
+  cursor: pointer;
+  position: absolute;
+  top: 330px;
+  right: 110px;
+  width: 50px;
+  background: url('/Users/hannahjo/Desktop/Web_Dev/hear/triangle.png') no-repeat;
+  padding: 200px;
+  background-size: auto;
+  margin: none;
+  border: none;
+  transform: rotate(-20deg);
+}
+.squarebutton {
+  border: none;
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 480px;
+  right: 460px;
+  width: 280px;
+  background: url('/Users/hannahjo/Desktop/Web_Dev/hear/square.png') no-repeat;
+  padding: 200px;
+  margin: auto;
+  transform: rotate(5deg);
+}
+
+.starbutton {
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 430px;
+  right: 290px;
+  width: 280px;
+  background: url('/Users/hannahjo/Desktop/Web_Dev/hear/star.png') no-repeat;
+  padding: 200px;
+  margin: 2px;
+  transform: rotate(-5deg);
+}
+
+.circlebutton {
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 410px;
+  right: 660px;
+  width: 280px;
+  background: url('/Users/hannahjo/Desktop/Web_Dev/hear/circle.png') no-repeat;
+  padding: 200px;
+  margin: 2px;
+  transform: rotate(20deg);
+}
+
+.popup {
+  position: absolute;
+  top: 300px;
+  margin-left: 565px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #adcfff;
+}
+
+.submissiontext {
+  color: #070c94;
+}
