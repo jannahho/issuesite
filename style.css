@@ -97,7 +97,7 @@ body {
   top: 480px;
   right: 460px;
   width: 280px;
-  background: url('/Users/hannahjo/Desktop/Web_Dev/hear/square.png') no-repeat;
+  background: url('https://raw.githubusercontent.com/jannahho/issuesite/main/square.png') no-repeat;
   padding: 200px;
   margin: auto;
   transform: rotate(5deg);
